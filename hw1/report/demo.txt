@@ -1,0 +1,26 @@
+problem 2
+VM2: ./sniffex eth14
+
+problem 3
+VM1: ping 172.217.1.110
+VM2 (promisc ON): sudo ./sniffex eth14
+VM2 (promisc OFF): sudo ./sniffex-prom eth14
+
+task 1.b (icmp)
+VM1: ping 172.217.1.110
+VM2: sudo ./sniffex-icmp eth14
+
+task 1.b (tcp port 50-100)
+VM2: sudo ./sniffex-tcp eth14
+
+task 1.c
+VM1: telnet 192.168.15.5 23
+VM2: sudo ./sniffex-port eth14
+
+task 2.b
+VM1: sudo ./spoof-echo
+VM2: sudo ./sniffex-echo eth14
+
+task 2.c
+VM1: sudo ./spoof-frame
+VM2: sudo tcpdump -vv -e -XX not port 22
