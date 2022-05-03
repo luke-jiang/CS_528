@@ -1,5 +1,3 @@
-# CS 528 Notes
-
 ## 1. Intro to Network security
 
 ### 1.1 CIA Properties
@@ -827,7 +825,6 @@ Session Fixation Attack:
 - A sends the link to B with the session id to a victim C
 - C accesses the link and inputs its credentials
 - A asks B for credentials, which returns C's credentials.
-
 
 
 
