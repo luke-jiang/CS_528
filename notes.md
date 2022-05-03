@@ -1,3 +1,4 @@
+# 528 Notes
 
 ## 1. Intro to Network security
 
@@ -283,8 +284,7 @@ TCP protocol:
 - lost packets are resent
 - connection state is maintained on both sides
 
-ICMP (control message protocol):  
-error reporting, reachability, ...
+ICMP (control message protocol): error reporting, reachability, ...
 
 ### 4.2 IP Security
 
@@ -407,7 +407,7 @@ DoS reflection and Asymmetry Attack:
 
 ## 5. Public-Key Cryptography
 
-### 5.1 Why do we need PKC
+### 5.1 Why Do We Need PKC
 
 We should have secure and authenticated communication in TCP/IP stack (IPSEC, SSL/TLS)
 
@@ -711,7 +711,7 @@ Tor goals and non-goals:
 
 ### 9.4 Achieving Strong Anonymity
 
-Anonymity Trinemma:
+Anonymity Trilemma:
 high anonymity, low handwidth overhead and low latency overhead are not simultaneously achievable.
 
 Two categories for high anonymity:
