@@ -595,9 +595,6 @@ PFS (perfect forward secrecy) Problem:
 
 ### 7.3 Discrete Log Setting (Diffle-Hellman Exchange)
 
-
-
-
 ## 8. Public Key Infrastructure
 
 ## 9. Meta-data Privacy (Anonymity)
@@ -757,9 +754,6 @@ Techniques:
 - encryption s.t. ciphertext should be indistinguishable from a random string
 - steganography / covert channels
 
-
-
-
 ## 11. Web Security
 
 ### 11.1 Web Security Basics
@@ -814,19 +808,16 @@ XSS Reflection Attack:
 - Server replies with page containing a script.
 - scripts not only in `\<script\>`
 
-### 11.3
+### 11.3 Web Seccion anf XSRF
 
 Web Session:
+
 - how?: HTTP authentication; cookies; identifier in url
 
 Session Fixation Attack:
+
 - Attacker A login to Server B
 - B returns a session id to A
 - A sends the link to B with the session id to a victim C
 - C accesses the link and inputs its credentials
 - A asks B for credentials, which returns C's credentials.
-
-
-
-
-
