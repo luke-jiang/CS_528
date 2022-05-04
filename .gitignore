@@ -8,9 +8,9 @@
 *.fdb_latexmk
 *.fls
 *.log
-*.out
-*.synctex.gz
 *.nav
+*.out
 *.snm
+*.synctex.gz
 *.toc
 *.vrb
